@@ -13,8 +13,12 @@ const sizes = {
     width : 1200,
     height : 800    
   },
+  devto:{
+    width: 1000,
+    height: 420
+  }
 }
-const size = sizes.mobile
+const size = sizes.devto
 
 const width = size.width
 const height = size.height
