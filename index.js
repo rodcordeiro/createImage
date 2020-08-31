@@ -1,13 +1,16 @@
 const fs = require('fs')
 const { createCanvas, loadImage } = require('canvas')
-const title = "Trello API"
-const description = "How to work with trello API"
-// const title = "Creating Images"
-// const description = "Creating images using node-Canvas"
-const bg = "https://rodcordeiro.github.io/shares/img/vmask_troopers.jpg"
+// const title = "Trello API"
+// const description = "How to work with trello API"
+const title = "Creating Images"
+const description = "Creating images using node-Canvas"
+const bg = "https://rodcordeiro.github.io/shares/img/paisagem.jpg"
+//"https://rodcordeiro.github.io/shares/img/vader.png"
+//"https://rodcordeiro.github.io/shares/img/vmask_troopers.jpg"
 //"https://rodcordeiro.github.io/shares/img/codigo3.jpeg"
-const logo = "https://rodcordeiro.github.io/shares/img/RC-W.png"//'assets/RC.png'
-//"https://rodcordeiro.github.io/shares/img/RC-W.png"//'assets/RC-W.png'
+const logo = "https://rodcordeiro.github.io/shares/img/RC-W.png"//'assets/RC-W.png'
+//"https://rodcordeiro.github.io/shares/img/RC.png"
+
 
 const sizes = {
   mobile:{
