@@ -4,7 +4,8 @@ const { createCanvas, loadImage } = require('canvas')
 // const description = "How to work with trello API"
 const title = "Creating Images"
 const description = "Creating images using node-Canvas"
-const bg = "https://rodcordeiro.github.io/shares/img/paisagem.jpg"
+const bg = "https://rodcordeiro.github.io/shares/img/vmask_troopers.jpg"
+// "https://rodcordeiro.github.io/shares/img/paisagem.jpg"
 //"https://rodcordeiro.github.io/shares/img/vader.png"
 //"https://rodcordeiro.github.io/shares/img/vmask_troopers.jpg"
 //"https://rodcordeiro.github.io/shares/img/codigo3.jpeg"
@@ -101,7 +102,7 @@ function writeTitle(text,context,x,y,width,line,fontSize){
   }
 
   function writeSubTitle(text,context,x,y,width,line,fontSize){
-    const larg = safeMargin(width) * 2 + textSize(text);
+    const larg =safeMargin(width) * 2 + textSize(text); //textSize(text) + (safeMargin(width) * (fontSize / 2)) //
     
     context.fillStyle = '#181818'
     context.fillRect(0, y - 5, larg,line)
