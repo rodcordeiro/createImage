@@ -1,7 +1,8 @@
 const fs = require("fs");
+const path = require("path");
 const { createCanvas, loadImage } = require("canvas");
 
-const bg = process.argv[2];
+const bg = path.resolve(process.argv[2]);
 const sizes = {
   mobile: {
     width: 600,
