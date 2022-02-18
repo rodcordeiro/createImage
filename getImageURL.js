@@ -27,7 +27,7 @@ function createImage() {
   const context = canvas.getContext("2d");
 
   //preenche a área com um quadro preto
-  context.fillStyle = "white";
+  context.fillStyle = "transparent";
   context.fillRect(0, 0, width, height);
 
   //Carrega o background
